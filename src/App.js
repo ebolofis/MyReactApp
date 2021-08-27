@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-//
-//
-//test2222
+
 class App extends Component {
   render() {
     return (
