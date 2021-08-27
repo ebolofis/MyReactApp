@@ -1,0 +1,12 @@
+.expense-item{
+    background-color: blue;
+}
+
+
+.expense-item__description{
+    width: 100%;
+}
+
+.expense-item__price{
+    color:red;
+}
