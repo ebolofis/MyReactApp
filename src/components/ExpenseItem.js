@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './ExpenseItem.css';
 
-function ExpenseItem() { //JSX syntax
+function ExpenseItem(props) { //JSX syntax
   const expenseDate = new Date();
   const expenseTitle="Car Insurance";
   const expenseAmount = 300;
@@ -12,7 +12,7 @@ function ExpenseItem() { //JSX syntax
   
       <div>{today}</div>
       <div className="expense-item__description">
-        <h2>{expenseTitle}</h2> 
+        <h2>{props.title}</h2> 
         <div className="expense-item__price">{expenseAmount}</div>
       </div>
     </div>
