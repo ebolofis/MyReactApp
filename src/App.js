@@ -5,16 +5,18 @@ import ExpenseItem from "./components/ExpenseItem";
 //
 function App() {
    const  expenses = [
-    {title:'Car Insurance',amount:300,date:new Date(2021,6,28)},
-    {title:'Boat Insurance',amount:290,date:new Date(2021,6,27)},
-    {title:'Plane Insurance',amount:280,date:new Date(2021,6,26)},
-    {title:'House Insurance',amount:270,date:new Date(2021,6,25)}
+    {id:1,title:'Car Insurance',amount:300,datum:new Date(2021,6,28)},
+    {id:2,title:'Boat Insurance',amount:290,datum:new Date(2021,6,27)},
+    {id:3,title:'Plane Insurance',amount:280,datum:new Date(2021,6,26)},
+    {id:4,title:'House Insurance',amount:270,datum:new Date(2021,6,25)}
     ];
 return (
   <div className="App">
     <header className="App-header">
-      <ExpenseItem title={expenses[1].title}></ExpenseItem>
-      
+      <ExpenseItem id={expenses[0].id} datum={expenses[0].date} amount={expenses[0].amount} title={expenses[0].title}></ExpenseItem>
+      <ExpenseItem id={expenses[1].id} datum={expenses[1].date} amount={expenses[1].amount} title={expenses[1].title}></ExpenseItem>
+      <ExpenseItem id={expenses[2].id} datum={expenses[2].date} amount={expenses[2].amount} title={expenses[2].title}></ExpenseItem>
+      <ExpenseItem id={expenses[3].id} datum={expenses[3].date} amount={expenses[3].amount} title={expenses[3].title}></ExpenseItem>
     </header>
   </div>
 );

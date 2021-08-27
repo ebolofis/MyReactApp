@@ -9,11 +9,11 @@ function ExpenseItem(props) { //JSX syntax
   
     return (
     <div className="expense-item">
-  
-      <div>{today}</div>
+        <h3>{props.id}</h3>
+      <div>{props.datum}</div>
       <div className="expense-item__description">
         <h2>{props.title}</h2> 
-        <div className="expense-item__price">{expenseAmount}</div>
+        <div className="expense-item__price">{props.amount}</div>
       </div>
     </div>
   );
