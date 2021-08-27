@@ -2,13 +2,18 @@ import React, { Component } from "react";
 import './ExpenseItem.css';
 
 function ExpenseItem() { //JSX syntax
-  return (
+  const expenseDate = new Date();
+  const expenseTitle="Car Insurance";
+  const expenseAmount = 300;
+  let today = expenseDate.getFullYear()+'-'+(expenseDate.getMonth()+1)+'-'+expenseDate.getDate();
+  
+    return (
     <div className="expense-item">
-      {" "}
-      <div>March 28th 2021</div>
+  
+      <div>{today}</div>
       <div className="expense-item__description">
-        <h2>Car Insurance</h2> 
-        <div className="expense-item__price">300e</div>
+        <h2>{expenseTitle}</h2> 
+        <div className="expense-item__price">{expenseAmount}</div>
       </div>
     </div>
   );
