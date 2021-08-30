@@ -8,7 +8,7 @@ function Card(){
 	</div>
 	<div class="content">
 		<div class="details">
-			<h2>Anna Smith<br /><span>Web girl</span></h2>
+			<h2>Card <br /><span></span></h2>
 		</div>
 		<ul class="sci">
 			<li>
