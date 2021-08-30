@@ -1,13 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
 .expense-item{
     background-color: blue;
     margin:20px 20px;
+     float:left;
+     width: 20%;
+   
 }
-
 
 .expense-item__description{
     width: 100%;
+    float:left;
 }
 
 .expense-item__price{
     color:red;
+    
 }
+
