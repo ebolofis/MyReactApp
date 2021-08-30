@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './ExpenseItem.css';
 
+
 function ExpenseItem(props) { //JSX syntax
   const expenseDate = new Date();
   const expenseTitle="Car Insurance";
@@ -8,9 +9,14 @@ function ExpenseItem(props) { //JSX syntax
   let today = expenseDate.getFullYear()+'-'+(expenseDate.getMonth()+1)+'-'+expenseDate.getDate();
   
     return (
+      
     <div className="expense-item">
+      
         <h3>{props.id}</h3>
-      <div>{props.datum}</div>
+        <div>{today} </div>
+        <div>Day </div>
+        <div>Month</div>
+      {/* <div>{props.datum.toLocaleString('en-US',{month:'long'})}</div> */}
       <div className="expense-item__description">
         <h2>{props.title}</h2> 
         <div className="expense-item__price">{props.amount}</div>
