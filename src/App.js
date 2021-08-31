@@ -5,6 +5,7 @@ import NavigationBar from "./components/Navbar";
 import ExpenseItem from "./components/ExpenseItem";
 import Card from './components/Card';
 import Logo from './components/Logo';
+import CarouselComponent from './components/CarouselComponent';
 
 function App() {
    const  expenses = [
@@ -18,7 +19,7 @@ return (
     <header className="App-header">
   
   <NavigationBar></NavigationBar>
-  
+  <CarouselComponent></CarouselComponent>
       <Logo></Logo>
     <Card>
     </Card>
