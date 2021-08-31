@@ -17,7 +17,6 @@ return (
     <header className="App-header">
       <Logo></Logo>
     <Card>
-      
     </Card>
     <ExpenseItem id={expenses[0].id} datum={expenses[0].date} amount={expenses[0].amount} title={expenses[0].title}></ExpenseItem>
       <ExpenseItem id={expenses[1].id} datum={expenses[1].date} amount={expenses[1].amount} title={expenses[1].title}></ExpenseItem>
