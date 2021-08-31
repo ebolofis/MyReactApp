@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import './Carousel.css';
 import { Carousel} from "react-bootstrap";
 
-
 function CarouselComponent(){
 return (
 <Carousel>
