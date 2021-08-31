@@ -5,7 +5,7 @@ import NavigationBar from "./components/Navbar";
 import ExpenseItem from "./components/ExpenseItem";
 import Card from './components/Card';
 import Logo from './components/Logo';
-//
+
 function App() {
    const  expenses = [
     {id:1,title:'Car Insurance',amount:300,datum:new Date(2021,6,28)},
@@ -18,6 +18,7 @@ return (
     <header className="App-header">
   
   <NavigationBar></NavigationBar>
+  
       <Logo></Logo>
     <Card>
     </Card>
@@ -29,12 +30,6 @@ return (
   </div>
 );
  }
-// class App extends Component {
 
-//   render() {
-    
-  
-//   }
-// }
 
 export default App;
