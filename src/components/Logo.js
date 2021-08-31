@@ -11,7 +11,7 @@ function Logo(){
         </head>
       
       <body>
-       <h1 class="title">React Logo | Animated</h1>
+       <h1 class="title">Evangelos Bolofis Demo React App</h1>
       
        <div class="box">
       
