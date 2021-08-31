@@ -8,17 +8,19 @@ function Card(){
 	</div>
 	<div class="content">
 		<div class="details">
-			<h2>Card <br /><span></span></h2>
+			<h2> <br /><span></span></h2>
+			<img src="http://ebolofis.com/assets/img/profile-img.jpg" width="300" height="300" alt="Ebolofis React App"></img>
+			
 		</div>
 		<ul class="sci">
 			<li>
-				<a href=""><i class="fab fa-facebook-f"></i></a>
+				
 			</li>
 			<li>
-				<a href=""><i class="fab fa-twitter"></i></a>
+				
 			</li>
 			<li>
-				<a href=""><i class="fab fa-instagram"></i></a>
+				
 			</li>
 		</ul>
 	</div>

@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./App.css";
 import ExpenseItem from "./components/ExpenseItem";
 import Card from './components/Card';
+import Logo from './components/Logo';
 //
 function App() {
    const  expenses = [
@@ -14,6 +15,7 @@ function App() {
 return (
   <div className="App">
     <header className="App-header">
+      <Logo></Logo>
     <Card>
       
     </Card>
