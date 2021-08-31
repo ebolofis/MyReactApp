@@ -1,18 +1,6 @@
-
-/* * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Ubuntu", sans-serif;
-} */
-
-/* body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: linear-gradient(#03a9f4, #03a9f4 45%, #fff 45% 100%);
-} */
+.details {
+	border: 3px dotted black;
+}
 
 .card {
 	position: relative;
@@ -106,4 +94,9 @@
 	background-color: #03a9f4;
 	color: #fff;
 }
+
+
+
+
+
 
