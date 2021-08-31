@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; //bootstrap inclusion
 import "./App.css";
+import NavigationBar from "./components/Navbar";
 import ExpenseItem from "./components/ExpenseItem";
 import Card from './components/Card';
 import Logo from './components/Logo';
@@ -14,7 +15,9 @@ function App() {
     ];
 return (
   <div className="App">
-    <header className="App-header">
+    <header className="App-header">]
+  
+  <NavigationBar></NavigationBar>
       <Logo></Logo>
     <Card>
     </Card>

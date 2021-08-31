@@ -12,8 +12,8 @@ function Card(){
 			<h2> <br /><span></span></h2>
 			<img src="http://ebolofis.com/assets/img/profile-img.jpg" width="300" height="300" alt="Ebolofis React App"></img>
 			<div>
-8      <Button variant="primary">Click Me!</Button>
-9    </div>
+      <Button variant="primary">Click Me!</Button>
+   </div>
 		</div>
 		<ul class="sci">
 			<li>
