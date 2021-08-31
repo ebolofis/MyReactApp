@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import 'bootstrap/dist/css/bootstrap.min.css'; //bootstrap inclusion
 import "./App.css";
 import ExpenseItem from "./components/ExpenseItem";
 import Card from './components/Card';
