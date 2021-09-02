@@ -23,7 +23,7 @@ return (
     <Logo/>
     <Card/>
     
-    <ExpenseItem data={expenses.map(x=>x)} ></ExpenseItem>
+    <ExpenseItem data={expenses} ></ExpenseItem>
       
     </header>
   </div>
