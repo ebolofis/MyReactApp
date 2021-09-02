@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; //bootstrap inclusion
 import "./App.css";
-import NavigationBar from "./components/Navbar";
-import ExpenseItem from "./components/ExpenseItem";
-import Card from './components/Card';
-import Logo from './components/Logo';
-import CarouselComponent from './components/CarouselComponent';
+import NavigationBar from "./components/Navbar/Navbar";
+import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
+import Card from './components/Card/Card';
+import Logo from './components/Logo/Logo';
+import CarouselComponent from './components/Carousel/CarouselComponent';
 
 function App() {
    const  expenses = [
@@ -22,7 +22,7 @@ return (
     <CarouselComponent/>
     <Logo/>
     <Card/>
-    {expenses.map(obj=>{obj.amount})}
+    {/* {expenses.map(obj=>{obj.amount})} */}
     <ExpenseItem id={expenses[0].id} datum={expenses[0].date} amount={expenses[0].amount} title={expenses[0].title}></ExpenseItem>
       <ExpenseItem id={expenses[1].id} datum={expenses[1].date} amount={expenses[1].amount} title={expenses[1].title}></ExpenseItem>
       <ExpenseItem id={expenses[2].id} datum={expenses[2].date} amount={expenses[2].amount} title={expenses[2].title}></ExpenseItem>
