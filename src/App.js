@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; //bootstrap inclusion
 import "./App.css";
 import NavigationBar from "./components/Navbar/Navbar";
@@ -22,11 +22,9 @@ return (
     <CarouselComponent/>
     <Logo/>
     <Card/>
-    {/* {expenses.map(obj=>{obj.amount})} */}
-    <ExpenseItem id={expenses[0].id} datum={expenses[0].date} amount={expenses[0].amount} title={expenses[0].title}></ExpenseItem>
-      <ExpenseItem id={expenses[1].id} datum={expenses[1].date} amount={expenses[1].amount} title={expenses[1].title}></ExpenseItem>
-      <ExpenseItem id={expenses[2].id} datum={expenses[2].date} amount={expenses[2].amount} title={expenses[2].title}></ExpenseItem>
-      <ExpenseItem id={expenses[3].id} datum={expenses[3].date} amount={expenses[3].amount} title={expenses[3].title}></ExpenseItem>
+    
+    <ExpenseItem data={expenses.map(x=>x)} ></ExpenseItem>
+      
     </header>
   </div>
 );

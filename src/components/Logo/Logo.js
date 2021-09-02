@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import './Logo.css';
 
 
@@ -24,7 +24,7 @@ function Logo(){
        </div> 
 
         <div> 
-            <h5 id="footer" class="title"><a href="http://www.eleftheriabatsou.com" target="_blank"></a> | <a href="https://codepen.io/EleftheriaBatsou" target="_blank"></a> | <a href="https://www.youtube.com/channel/UCC-WwYv3DEW7Nkm_IP6VeQQ" target="_blank">   </a></h5>
+           
           </div> 
         
       </body>

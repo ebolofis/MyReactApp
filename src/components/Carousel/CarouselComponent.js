@@ -1,5 +1,5 @@
 
-import React, { Component } from "react";
+import React from "react";
 import './Carousel.css';
 import { Carousel} from "react-bootstrap";
 
