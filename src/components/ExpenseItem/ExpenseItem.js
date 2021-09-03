@@ -10,10 +10,16 @@ function ExpenseItem(props) { //JSX syntax
   console.log(props);
  
   return props.data.map((post ) =>
+
   <div >
-    <h3>{post.amount}</h3>
-    <p>{today}</p>
-    <p>{post.title}</p>
+    <div class="d-flex">
+  <div class="p-2"><h3>{post.amount}</h3></div>
+  <div class="p-2"><p>{today}</p></div>
+  <div class="p-2"><p>{post.title}</p></div>
+</div>
+    
+    
+    
   </div>
 );
   
