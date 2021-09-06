@@ -3,6 +3,11 @@ import Button from 'react-bootstrap/Button';
 import './Card.css';
 
 function Card(){
+
+const clickHandler =() => {
+	console.log("Click event!");
+}
+
     return (<div class="card">
 	<div class="imgBx">
 	
@@ -12,7 +17,7 @@ function Card(){
 			<h2> <br /><span></span></h2>
 			<img src="http://ebolofis.com/assets/img/profile-img.jpg" width="300" height="300" alt="Ebolofis React App"></img>
 			<div>
-      <Button variant="primary">Click Me!</Button>
+      <Button onClick={clickHandler}  variant="primary">Click Me!</Button>
    </div>
 		</div>
 		<ul class="sci">
