@@ -10,7 +10,7 @@ function FetchData(){
     const clickGetData =() => {
         let dataArray = [];
 
-        fetch('https://api.npms.io/v2/search?q=react')
+        fetch('https://api.npms.io/v2/search?q=react') //httpget
         .then(response => response.json())
         .then(data => console.log(data));
 
