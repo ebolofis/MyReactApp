@@ -7,7 +7,6 @@ let property = "My property";
 
 const [title,setTitle] =	useState(property); // one of the most important React Hooks
 
-
 const clickHandler =() => {
 	setTitle('Updated!'); //asssign a new value to this state and revaluate the component
 	console.log("Click event!");
