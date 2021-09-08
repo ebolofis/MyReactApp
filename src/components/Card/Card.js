@@ -6,7 +6,6 @@ function Card(){
 let property = "My property";
 
 const [title,setTitle] =	useState(property); // one of the most important React Hooks
-
 const clickHandler =() => {
 	setTitle('Updated!'); //asssign a new value to this state and revaluate the component
 	console.log("Click event!");
@@ -26,13 +25,13 @@ const clickHandler =() => {
 		</div>
 		<ul class="sci">
 			<li>
-				
+				1	
 			</li>
 			<li>
-				
+				2
 			</li>
 			<li>
-				
+				3
 			</li>
 		</ul>
 	</div>

@@ -5,6 +5,7 @@ import NavigationBar from "./components/Navbar/Navbar";
 import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 import Card from './components/Card/Card';
 import Logo from './components/Logo/Logo';
+import FetchData from './components/fetchData/fetchdata';
 import CarouselComponent from './components/Carousel/CarouselComponent';
 
 function App() {
@@ -22,7 +23,7 @@ return (
     <CarouselComponent/>
     <Logo/>
     <Card/>
-    
+    <FetchData/>
     <ExpenseItem data={expenses} ></ExpenseItem>
       
     </header>
